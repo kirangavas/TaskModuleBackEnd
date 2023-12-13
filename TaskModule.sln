@@ -17,6 +17,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureLayer", "Infr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskModule.API", "TaskModule.API\TaskModule.API.csproj", "{0915ECE5-7B98-4F94-BFBB-23FFCBC5A55A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseFiles", "DatabaseFiles", "{1F9A2F5F-9A2A-406A-99F9-A2137ADCB022}"
+	ProjectSection(SolutionItems) = preProject
+		D:\Kiran\Scripts\dbo.TaskTable.Table.sql = D:\Kiran\Scripts\dbo.TaskTable.Table.sql
+		D:\Kiran\Scripts\dbo.Users.Table.sql = D:\Kiran\Scripts\dbo.Users.Table.sql
+		D:\Kiran\Scripts\dbo.usp_AddTaskProcedure.StoredProcedure.sql = D:\Kiran\Scripts\dbo.usp_AddTaskProcedure.StoredProcedure.sql
+		D:\Kiran\Scripts\dbo.usp_LoadTaskUserDetails.StoredProcedure.sql = D:\Kiran\Scripts\dbo.usp_LoadTaskUserDetails.StoredProcedure.sql
+		D:\Kiran\Scripts\dbo.usp_LoadUserDetails.StoredProcedure.sql = D:\Kiran\Scripts\dbo.usp_LoadUserDetails.StoredProcedure.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
